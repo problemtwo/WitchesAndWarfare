@@ -20,7 +20,7 @@ class GameController {
           new Block(this, new Vector3D(0, 5000, 0), new Vector3D(8000, 0.5, 8000), "0x7ec0ee", ""), //sky
           //Walls
           new Block(this, new Vector3D(0, 10, 10), new Vector3D(10, 20, 0.5), "0xaaaaaa", "textures/wood_texture.jpg"), 
-          new Block(this, new Vector3D(0, 10, -10), new Vector3D(10, 20, 0.5), "0xaaaaaa", "textures/wood_texture.jpg"),
+          new Block(this, new Vector3D(0, 11, -10), new Vector3D(10, 18, 0.5), "0xaaaaaa", "textures/wood_texture.jpg"),
           new Block(this, new Vector3D(5, 10, 0), new Vector3D(0.5, 20, 20), "0xaaaaaa", "textures/wood_texture.jpg"),
           new Block(this, new Vector3D(-5, 10, 0), new Vector3D(0.5, 20, 20), "0xaaaaaa", "textures/wood_texture.jpg"),
           new Block(this, new Vector3D(0, 20, 0), new Vector3D(10, 0.5, 20), "0xaaaaaa", "textures/wood_texture.jpg"),//celing
