@@ -26,9 +26,6 @@ class GameController {
         ],
         "npcs": [
           this.player,
-          new NPC(this, new Vector3D(4, 8, 1), new Vector3D(1, 2, 1), ""),
-          new NPC(this, new Vector3D(-3, 2, 1.2), new Vector3D(0.5, 2.4, 0.5), "", "", (obj) => { obj.pos.x = 5*Math.sin(performance.now()/2000); obj.pos.z = 5*Math.cos(performance.now()/2587); obj.vel.x = 5/2000*Math.cos(performance.now()/2000); obj.vel.z = -5/2587*Math.sin(performance.now()/2587);} ),
-          new NPC(this, new Vector3D(0, 2, 0.7), new Vector3D(1, 1.4, 1), ""),
         ]
       },
       {
