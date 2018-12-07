@@ -16,7 +16,7 @@ class GameController {
           //new Block(this, new Vector3D(0, 0, 0), new Vector3D(0.1, 1000, 0.1), "0x00ff00"), // y axis
           //new Block(this, new Vector3D(0, 0, 0), new Vector3D(0.1, 0.1, 1000), "0x0000ff"), // z axis
           new Block(this, new Vector3D(0, 0, 0), new Vector3D(10, 0.5, 20), "0xaaaaaa", "textures/wood_texture.jpg"), //floor
-          new Block(this, new Vector3D(0, -0.1, 0), new Vector3D(8000, 0.5, 8000), "0xaaaaaa", "textures/iron_texture.jpg"), //ground
+          new Block(this, new Vector3D(0, -0.1, 0), new Vector3D(80, 0.5, 80), "0xaaaaaa", "textures/iron_texture.jpg"), //ground
           new Block(this, new Vector3D(0, 5000, 0), new Vector3D(8000, 0.5, 8000), "0xaaaaff", "textures/iron_texture.jpg"), //sky
           //Walls
           new Block(this, new Vector3D(0, 10, 10), new Vector3D(10, 20, 0.5), "0xaaaaaa", "textures/wood_texture.jpg"), 
